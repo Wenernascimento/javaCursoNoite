@@ -16,5 +16,6 @@
 	<classpathentry kind="src" path="JurosComposto"/>
 	<classpathentry kind="src" path="CincoExercicios"/>
 	<classpathentry kind="src" path="Strings"/>
+	<classpathentry kind="src" path="Classes"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

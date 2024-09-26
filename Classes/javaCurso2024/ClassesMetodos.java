@@ -21,9 +21,21 @@ public class ClassesMetodos {
 		if (numero == 0 || numero == 1 ) {
 	return 1;
 		}
-		return numero;
+		return numero * fatorial(numero - 1);
 	}
 	
+
+	// Método 5:  encontra o maior numero em um array:
+	
+	public int maiorNumero(int[] numeros) {
+		int maior = numeros [0];
+		for (int numero : numeros) {
+			if (numero > maior) {
+				
+			}
+		}
+	     return maior;
+	}
 	
 	    // Este método executa outros métodos!
 	    public static void main(String[] args) {
@@ -36,9 +48,10 @@ public class ClassesMetodos {
 		System.out.println("O número 4 é par? " + util.ehPar (5));
 		System.out.println("String invertida de 'Java':" + util.invertString("Java"));
 		System.out.println("O fatorial de 5 é: " + util.fatorial(5));
-		
-		
-	    
+		int[] numeros = { 1, 5, 6, 8, 44 };
+		System.out.println("O maior número do Array é: " + util.maiorNumero(numeros));
+
+	
 	}
 
 }

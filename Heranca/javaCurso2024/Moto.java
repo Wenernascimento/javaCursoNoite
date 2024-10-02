@@ -11,6 +11,6 @@ public class Moto extends Veiculo {
 	@Override
 	public void exibirDetalhes() {
 		super.exibirDetalhes();
-		System.out.println("Tem bagageiro:+" + (temBagageiro ? "Sim" : "Não"));
+		System.out.println("Tem bagageiro: " + (temBagageiro ? "Sim" : "Não"));
 	}
 }

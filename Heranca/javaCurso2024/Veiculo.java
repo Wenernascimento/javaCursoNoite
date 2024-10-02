@@ -14,7 +14,10 @@ public class Veiculo {
 
 	public void exibirDetalhes() {
 		System.out.println("marca: " + marca);
+		
 		System.out.println("modelo: " + modelo);
+	
+		
 		System.out.println("ano  " + ano);
 
 	}

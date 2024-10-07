@@ -20,6 +20,7 @@ public class CrudArray {
 			System.out.println("4. Deletar usuário");
 			System.out.println("5. sair");
 			System.out.println("Escolha uma opção: ");
+			
 			opcao = sc.nextInt();
 			sc.nextLine();
 			

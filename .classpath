@@ -23,5 +23,6 @@
 	<classpathentry kind="src" path="Polimorfismo"/>
 	<classpathentry kind="src" path="CRUD"/>
 	<classpathentry kind="src" path="ArrayNumero"/>
+	<classpathentry kind="src" path="Gerente"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -4,6 +4,7 @@ public class PagamentoPrincipal {
 
 	public static void main(String[] args) {
 		double valorPagamento = 100.00; // valor ser pago
+		
 		String formaPagamento = "Boleto"; // escolha da forma de pagamento
 
 		Pagamento pagamento;
@@ -15,11 +16,11 @@ public class PagamentoPrincipal {
 			pagamento = new Boleto();
 
 		} else {
-			System.out.println(" Forma de pagamento inválida");
+			System.out.println("Forma de pagamento inválida");
 			return;
 		}
 	// Realizando o pagamento
-		pagamento.realizarPagamento(valorPagamento);
+		pagamento.realizarPagamento( valorPagamento );
 	 
 	}
 

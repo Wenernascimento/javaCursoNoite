@@ -31,5 +31,6 @@
 	</classpathentry>
 	<classpathentry kind="src" path="PagamentoInterface"/>
 	<classpathentry kind="src" path="TryCatch"/>
+	<classpathentry kind="src" path="InterfaceGrafica"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -21,5 +21,16 @@
 	<classpathentry kind="src" path="Listas"/>
 	<classpathentry kind="src" path="Heranca"/>
 	<classpathentry kind="src" path="Polimorfismo"/>
+	<classpathentry kind="src" path="CRUD"/>
+	<classpathentry kind="src" path="ArrayNumero"/>
+	<classpathentry kind="src" path="Gerente"/>
+	<classpathentry kind="src" path="Interfaces">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="PagamentoInterface"/>
+	<classpathentry kind="src" path="TryCatch"/>
+	<classpathentry kind="src" path="InterfaceGrafica"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

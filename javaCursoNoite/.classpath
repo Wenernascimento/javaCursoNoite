@@ -9,5 +9,6 @@
 	<classpathentry kind="src" path="InterFace"/>
 	<classpathentry kind="src" path="JavaStream"/>
 	<classpathentry kind="src" path="teste"/>
+	<classpathentry kind="src" path="InterfaceGrafica"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

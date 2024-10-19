@@ -15,14 +15,14 @@ public class Calculadora extends JFrame implements ActionListener {
     public Calculadora() {
         // Configurações da Janela
         setTitle("Calculadora");
-        setSize(300, 400);
+        setSize(300, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
 
         // Campo de texto para exibir o resultado
-        display = new JTextField();
-        display.setFont(new Font("Arial", Font.BOLD, 24));
+        display = new JTextField(0);
+        display.setFont(new Font("Arial", Font.PLAIN, 24));
         display.setEditable(false);
         add(display, BorderLayout.NORTH);
 
@@ -41,7 +41,7 @@ public class Calculadora extends JFrame implements ActionListener {
 
         for (String text : buttons) {
             JButton button = new JButton(text);
-            button.setFont(new Font("Arial", Font.BOLD, 18));
+            button.setFont(new Font("Arial", Font.PLAIN, 18));
             button.addActionListener(this);
             buttonPanel.add(button);
         }
